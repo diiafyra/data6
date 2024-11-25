@@ -1,0 +1,10 @@
+# Đường dẫn đến các thư mục dữ liệu
+train: ./train/images # Thư mục ảnh huấn luyện
+val: ./val/images # Thư mục ảnh kiểm tra
+test: ./test/images # Thư mục ảnh kiểm tra (nếu có)
+
+# Số lượng lớp (classes)
+nc: 6 # Số lớp (nếu có 6 lớp trong dữ liệu của bạn, ví dụ: Bird, Cat, Dog, Frog, Horse, Truck)
+
+# Tên của các lớp (classes)
+names: ["Bird", "Cat", "Dog", "Frog", "Horse", "Truck"]
